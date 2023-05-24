@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+h1,h2{
+    text-align: center;
+}
+body{
+    background-color: #cccccc;
+}
+.player_one{
+   background-color: white;
+   display:flex;
+   flex-direction: column;
+   padding:10px;
+   border: 1px solid black;
+   border-radius: 10px;
+
+}
+div a{
+    text-decoration: none;
+}
+.player_two{
+    position:relative;
+    background-color: white;
+    width:320px;
+    padding:10px;
+    display: flex;
+    margin:auto;
+    border: 1px solid ;
+    border-radius: 5px;
+}
+.player_two .video{
+   left:20;
+}
